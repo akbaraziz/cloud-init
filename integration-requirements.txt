@@ -3,3 +3,4 @@
 #
 pycloudlib @ git+https://github.com/canonical/pycloudlib.git@245ca0b97e71926fdb651147e42d6256b17f6778
 pytest
+cryptography>=41.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
